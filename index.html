@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!------------------------- HEADER ----------------------------------------------------->
+    <!-- HEADER -->
     <header class="header">
         <div class="header-navigation-container container">
         <nav class="header-navigation">
@@ -43,7 +43,7 @@
         </address>
         </div> 
     </header>
-    <!-------------------------- Main ---------------------------------------------------------->
+    <!-- Main -->
     <main class="main-page">
         <section class="hero-section section">
             <div class="container">
@@ -339,7 +339,7 @@
             </div>
         </section>
     </main>
-    <!-- -----------------------Footer----------------------------------------------------->
+    <!-- Footer -->
     <footer class="footer">
         <div class="container-footer-index container">
             <div class="container-footer">
@@ -405,57 +405,50 @@
                     <use href="./images/icons.svg#icon-modal-close"></use>
                 </svg>
             </button>
-                <h2 class="modal-tittle">Leave your contacts and we will call you back</h2>
+                <p class="modal-tittle">Leave your contacts and we will call you back</p>
                 <form class="modal-form">
-                    <div class="inputs-wrapper">
-                    <div class="form-inputs-group">
-                    <label for="user-name" class="form-label">
+                    <label class="form-label">
                         <span>Name</span>
-                        <div class="form-inputs-control"> 
+                        <span class="form-inputs-control"> 
                         <input 
                         type="text" 
                         class="form-input" 
                         name="user-name" 
-                        id="user-name"
-                        required>
+                        required
+                        >
                         <svg class="form-inputs-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg> 
-                        </div> 
+                        </span> 
                     </label>
-                    </div>
-                    <div class="form-inputs-group">
-                    <label for="user-phone" class="form-label">
+                    <label class="form-label">
                         <span>Phone</span>
-                        <div class="form-inputs-control">
+                        <span class="form-inputs-control">
                         <input 
-                        type="text" 
+                        type="tel" 
                         class="form-input"  
                         name="user-phone"
-                        id="user-phone" 
-                        required>
-                        <svg class="form-inputs-icon" width="18px" height="18px">
+                        required 
+                        >
+                        <svg class="form-inputs-icon" width="18px" height="24px">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg> 
-                        </div> 
+                        </span> 
                     </label>
-                    </div>
-                    <div class="form-inputs-group">
-                    <label for="user-email" class="form-label">
+                    <label class="form-label">
                         <span>Email</span>
-                        <div class="form-inputs-control">
+                        <span class="form-inputs-control">
                         <input 
-                        type="text" 
+                        type="email" 
                         class="form-input" 
                         name="user-email"
-                        id="user-email"
-                        required>
-                        <svg class="form-inputs-icon" width="18px" height="18px">
+                        required
+                        >
+                        <svg class="form-inputs-icon" width="18px" height="24px">
                             <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
-                        </div>  
+                        </span>  
                     </label>
-                    </div>
                     <div class="form-inputs-comment-group">
                         <label for="user-comment" class="form-label">
                         <span>Comment</span></label>
@@ -481,7 +474,6 @@
                         I accept the terms and conditions of the&nbsp;
                         <a href="#" target="blank" class="privacy-policy-link">Privacy Policy</a>
                         </label>
-                    </div>
                     </div>
                         <button type="submit" class="form-btn">Send</button>   
                 </form>
