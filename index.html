@@ -407,50 +407,47 @@
             </button>
                 <p class="modal-tittle">Leave your contacts and we will call you back</p>
                 <form class="modal-form">
-                    <label class="form-label">
-                        <span>Name</span>
+                    <label for="user-name" class="form-label">Name</label>
                         <span class="form-inputs-control"> 
                         <input 
                         type="text" 
                         class="form-input" 
-                        name="user-name" 
+                        name="user-name"
+                        id="user-name" 
                         required
                         >
                         <svg class="form-inputs-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg> 
                         </span> 
-                    </label>
-                    <label class="form-label">
-                        <span>Phone</span>
+                        <label for="user-phone" class="form-label">Phone</label>
                         <span class="form-inputs-control">
                         <input 
                         type="tel" 
                         class="form-input"  
                         name="user-phone"
+                        id="user-phone"
                         required 
                         >
                         <svg class="form-inputs-icon" width="18px" height="24px">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg> 
                         </span> 
-                    </label>
-                    <label class="form-label">
-                        <span>Email</span>
+                    <label for="user-email" class="form-label">Email</label>
                         <span class="form-inputs-control">
                         <input 
                         type="email" 
                         class="form-input" 
                         name="user-email"
+                        id="user-email"
                         required
                         >
                         <svg class="form-inputs-icon" width="18px" height="24px">
                             <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
-                        </span>  
-                    </label>
+                        </span> 
                         <label for="user-comment" class="form-label">
-                        <span>Comment</span></label>
+                            Comment</label>
                         <textarea class="form-comment-area" name="user-comment" 
                         id="user-comment" placeholder="Text input"></textarea>
                     <div class="form-checkbox-area">
